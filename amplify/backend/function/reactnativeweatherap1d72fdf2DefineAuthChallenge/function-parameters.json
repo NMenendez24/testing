@@ -1,0 +1,16 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-define-challenge"
+  ],
+  "parentResource": "reactnativeweatherap1d72fdf2",
+  "functionName": "reactnativeweatherap1d72fdf2DefineAuthChallenge",
+  "resourceName": "reactnativeweatherap1d72fdf2DefineAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/DefineAuthChallenge",
+  "triggerTemplate": "DefineAuthChallenge.json.ejs",
+  "triggerEventPath": "DefineAuthChallenge.event.json",
+  "roleName": "reactnativeweatherap1d72fdf2DefineAuthChallenge",
+  "skipEdit": true
+}

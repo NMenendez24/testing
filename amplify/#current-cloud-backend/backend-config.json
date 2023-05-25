@@ -1,0 +1,77 @@
+{
+  "auth": {
+    "reactnativeweatherapc50eae47": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "BIRTHDATE",
+          "EMAIL",
+          "NAME",
+          "NICKNAME"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "reactnativeweatherap1d72fdf2CreateAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "reactnativeweatherap1d72fdf2DefineAuthChallenge": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_reactnativeweatherap1d72fdf2CreateAuthChallenge_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "reactnativeweatherap1d72fdf2CreateAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_reactnativeweatherap1d72fdf2CreateAuthChallenge_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "reactnativeweatherap1d72fdf2CreateAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_reactnativeweatherap1d72fdf2DefineAuthChallenge_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "reactnativeweatherap1d72fdf2DefineAuthChallenge"
+        }
+      ]
+    },
+    "AMPLIFY_function_reactnativeweatherap1d72fdf2DefineAuthChallenge_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "reactnativeweatherap1d72fdf2DefineAuthChallenge"
+        }
+      ]
+    }
+  }
+}

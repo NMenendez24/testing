@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactnativeweatherap-dev-195128-authRole",
+      "UnauthRoleArn": "arn:aws:iam::298748317015:role/amplify-reactnativeweatherap-dev-195128-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::298748317015:role/amplify-reactnativeweatherap-dev-195128-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-reactnativeweatherap-dev-195128-deployment",
+      "UnauthRoleName": "amplify-reactnativeweatherap-dev-195128-unauthRole",
+      "StackName": "amplify-reactnativeweatherap-dev-195128",
+      "StackId": "arn:aws:cloudformation:sa-east-1:298748317015:stack/amplify-reactnativeweatherap-dev-195128/afd339f0-fb4e-11ed-922a-02a79a6617cc",
+      "AmplifyAppId": "d2qcumc4vweeuq"
+    },
+    "categories": {
+      "auth": {
+        "reactnativeweatherap1d72fdf2": {},
+        "reactnativeweatherapc50eae47": {}
+      },
+      "function": {
+        "reactnativeweatherap1d72fdf2DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-reactnativeweatherap-dev-195128-deployment",
+          "s3Key": "amplify-builds/reactnativeweatherap1d72fdf2DefineAuthChallenge-4f566e5579344670484f-build.zip"
+        },
+        "reactnativeweatherap1d72fdf2CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-reactnativeweatherap-dev-195128-deployment",
+          "s3Key": "amplify-builds/reactnativeweatherap1d72fdf2CreateAuthChallenge-5a394972636562436c67-build.zip"
+        }
+      }
+    }
+  }
+}
